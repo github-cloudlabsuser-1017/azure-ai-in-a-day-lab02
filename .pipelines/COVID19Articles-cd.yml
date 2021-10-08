@@ -27,6 +27,8 @@ variables:
 - template: COVID19Articles-variables-template.yml
 - group: devopsforai-aml-vg
 
+pool: odluser468564-project-agent-pool
+
 stages:
 - stage: 'Deploy_ACI'
   displayName: 'Deploy to ACI'
